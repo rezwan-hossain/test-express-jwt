@@ -5,7 +5,7 @@ const userRoute = require('./routes/auth');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://rezwan:rezwan@cluster0.8ydox.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://test:test@cluster0.8ydox.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
         .then(()=> console.log('database in connected'))
         .catch(err => console.log(err));
         
